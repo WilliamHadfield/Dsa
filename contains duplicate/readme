@@ -2,3 +2,8 @@ this is day 1 of learning DSA in zig, why zig? well its a modern c in terms of i
 like header files or really really old terminolgy and syntax style. its like the compiler and language literally know nothing and have no semantic awarness eg 
 you have to deriving EVERYTHING. so instead i am going to get claude to write me DSA examples in zig and then cross reference them with c++ samples and compare there assembly outputs.
 therefore keeping an verifiyable human source of information so i am not learning the "wrong" way.
+
+zig deemed to be too challenging (no human examples :( )) therefore i decided to switch back to rust.
+
+
+first round with doing contains duplicate, honestly quite easy, the solution i chose specfically involves a quick sort trick and false/empty check at the start achieving a O(N(log N)) time.
